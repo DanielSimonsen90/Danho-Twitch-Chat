@@ -1,0 +1,21 @@
+<!-- item will be appended to this layout -->
+<div id="log" class="sl__chat__layout">
+
+</div>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+<!-- chat item -->
+<script type="text/template" id="chatlist_item">
+    <div 
+      class="message-container"
+      style="--color: {color}"
+      data-from="{from}" 
+      data-id="{messageId}">
+        <span class="meta" style="color: {color};">
+            <span class="badges"></span>
+            <span class="name">{from}</span>
+        </span>
+
+        <span class="message">{message}</span>
+    </div>
+</script>
