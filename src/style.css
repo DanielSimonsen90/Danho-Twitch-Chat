@@ -11,7 +11,7 @@ html, body {
 
 body {
   text-shadow: 0 0 1px #000, 0 0 2px #000;
-  background: {background_color} !important;
+  background: {background_color};
   font-family: 'Roboto';
   font-weight: 700;
   font-size: {font_size};
